@@ -1,0 +1,37 @@
+<a> (Anchor Tag):
+Used to create hyperlinks to other web pages, email addresses, or files.
+href (Hypertext REFerence):
+Specifies the URL or link destination.
+target Attribute:
+Specifies where to open the linked document.
+_blank opens the link in a new tab.
+_self (default) opens in the same tab.
+<img> (Image Tag):
+Used to embed images in a web page.
+src defines the image path.
+alt provides alternative text if the image doesn't load.
+width sets the image width in pixels.
+Code:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hyperlink Example</title>
+</head>
+<body>
+    <h1>Working with Hyperlinks in HTML</h1>
+    <!-- Text Link -->
+    <h2>Text Hyperlink</h2>
+    <p>
+        Visit the official website of 
+        <a href="https://www.aec.edu.in/" target="_blank">Aditya Engineering College</a>
+        for more information.
+    </p>
+
+    <!-- Image Link -->
+    <h2>Image Hyperlink</h2>
+    <p>Click the image below to visit the AEC Gallery:</p>
+    <a href="https://www.aec.edu.in/?p=Gallery" target="_blank">
+        <img src="test.PNG" alt="AEC Gallery" width="50" height="50">
+    </a>
+</body>
+</html>
